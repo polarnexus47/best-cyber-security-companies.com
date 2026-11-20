@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Cache-busting version for CSS (content hash of css/)
+ASSET_VER=$(cat css/*.css | shasum | cut -c1-8)
 set -e
 
 PROJ="$(cd "$(dirname "$0")" && pwd)"
@@ -65,11 +67,11 @@ build_page() {
     "$CONTENT" > "$TMP_CONTENT"
 
   # Build CSS link tags
-  GLOBAL_CSS="${BASE}css/global.css"
+  GLOBAL_CSS="${BASE}css/global.css?v=${ASSET_VER}"
   CSS_TAGS="<link rel=\"stylesheet\" href=\"${GLOBAL_CSS}\">"
   if [ -n "$EXTRA_CSS" ]; then
     CSS_TAGS="${CSS_TAGS}
-    <link rel=\"stylesheet\" href=\"${BASE}css/${EXTRA_CSS}\">"
+    <link rel=\"stylesheet\" href=\"${BASE}css/${EXTRA_CSS}?v=${ASSET_VER}\">"
   fi
 
   # Build JSON-LD block

@@ -825,7 +825,7 @@ details.faq-item[open] .faq-chevron { transform: rotate(180deg); }
   object-fit: cover; object-position: right center;
   opacity: .5; z-index: 0; pointer-events: none;
 }
-@media (max-width: 767px) { .hero__bg, .page-hero__bg { opacity: .22; object-position: 75% center; } }
+@media (max-width: 767px) { .hero__bg, .page-hero__bg { opacity: .22 !important; object-position: 75% center !important; } }
 
 /* ===== CHANGELOG ===== */
 .changelog { padding: 0 0 3rem; background: var(--white); }
