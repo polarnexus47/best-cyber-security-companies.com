@@ -24,6 +24,7 @@ build_page() {
   local EXTRA_CSS="$7"
   local JSONLD="$8"
   local DEPTH="$9"
+  local OG_IMAGE="${10:-/images/og/home.png}"
 
   # depth-based relative base
   if [ "$DEPTH" = "0" ]; then
@@ -93,6 +94,13 @@ build_page() {
   <meta property="og:description" content="${DESC}">
   <meta property="og:url" content="${CANONICAL}">
   <meta property="og:site_name" content="Best Cyber Security Companies">
+  <meta property="og:image" content="https://best-cyber-security-companies.com${OG_IMAGE}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${TITLE}">
+  <meta name="twitter:description" content="${DESC}">
+  <meta name="twitter:image" content="https://best-cyber-security-companies.com${OG_IMAGE}">
   <link rel="icon" type="image/svg+xml" href="${FAVICON_DATA}">
   ${CSS_TAGS}
   ${JSONLD_BLOCK}
@@ -117,76 +125,155 @@ HTMLFOOT
 # ───────────────────────────────────────────────
 INDEX_JSONLD=$(cat <<'JSONLD'
 [
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Best Cyber Security Companies 2026",
-    "description": "Independent ranking of 12 cybersecurity companies evaluated on UAE compliance, CREST accreditation, sovereign SOC, and service depth.",
-    "url": "https://best-cyber-security-companies.com/",
-    "numberOfItems": 12,
-    "itemListElement": [
-      {"@type":"ListItem","position":1,"name":"Help AG","url":"https://helpag.com"},
-      {"@type":"ListItem","position":2,"name":"Paranoid Security","url":"https://paranoid.security"},
-      {"@type":"ListItem","position":3,"name":"Microminder Cyber Security","url":"https://micromindercybersecurity.com"},
-      {"@type":"ListItem","position":4,"name":"CPX","url":"https://cpx.net"},
-      {"@type":"ListItem","position":5,"name":"DTS Solution","url":"https://dtssolution.com"},
-      {"@type":"ListItem","position":6,"name":"CyberArrow","url":"https://cyberarrow.io"},
-      {"@type":"ListItem","position":7,"name":"Palo Alto Networks","url":"https://paloaltonetworks.com"},
-      {"@type":"ListItem","position":8,"name":"CrowdStrike","url":"https://crowdstrike.com"},
-      {"@type":"ListItem","position":9,"name":"Check Point Software","url":"https://checkpoint.com"},
-      {"@type":"ListItem","position":10,"name":"Fortinet","url":"https://fortinet.com"},
-      {"@type":"ListItem","position":11,"name":"IBM Security","url":"https://ibm.com/security"},
-      {"@type":"ListItem","position":12,"name":"Darktrace","url":"https://darktrace.com"}
-    ]
+ {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Cyber Security Companies in UAE",
+  "description": "Independent ranking of 12 UAE cybersecurity companies: pentesting, managed security, crypto forensics, compliance fit.",
+  "url": "https://best-cyber-security-companies.com/",
+  "mainEntityOfPage": "https://best-cyber-security-companies.com/",
+  "inLanguage": "en",
+  "datePublished": "2026-06-26",
+  "dateModified": "2026-11-20",
+  "image": "https://best-cyber-security-companies.com/images/og/home.png",
+  "author": {
+   "@type": "Organization",
+   "name": "Editorial Team, Cyber Vendor Research",
+   "url": "https://best-cyber-security-companies.com/about/"
   },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is the difference between penetration testing and red teaming?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Penetration testing enumerates vulnerabilities within a defined scope over a fixed timeframe. Red teaming simulates a real adversary pursuing a specific objective without predefined scope, testing detection and response capability."}
-      },
-      {
-        "@type": "Question",
-        "name": "Is DESC ISR V3 compliance mandatory for private companies in Dubai?",
-        "acceptedAnswer": {"@type": "Answer", "text": "DESC ISR V3 is mandatory for all Dubai Government and semi-government entities and their technology vendors. Private companies with no government contracts are not legally required to comply."}
-      },
-      {
-        "@type": "Question",
-        "name": "What does UAE PDPL require from cybersecurity vendors?",
-        "acceptedAnswer": {"@type": "Answer", "text": "UAE PDPL requires that PII of UAE residents be processed and stored on UAE soil. Cybersecurity vendors must not route log data through offshore data centers, and breach notification is mandatory within 72 hours."}
-      },
-      {
-        "@type": "Question",
-        "name": "How often should a company conduct penetration testing in the UAE?",
-        "acceptedAnswer": {"@type": "Answer", "text": "DESC ISR V3 and NESA require annual testing. VARA requires annual penetration tests for licensed VASPs. PCI DSS requires annual pentest plus quarterly vulnerability scanning."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is VARA and why does it affect cybersecurity vendor selection?",
-        "acceptedAnswer": {"@type": "Answer", "text": "VARA is Dubai's regulator for virtual asset service providers. VARA licensing requires annual penetration testing, an incident response plan, AML controls, and blockchain forensics capability."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is blockchain forensics and when is it needed?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Blockchain forensics investigates cryptocurrency transactions to trace fund movement and build court-admissible evidence chains. It is required for crypto hacks, VARA compliance, and law enforcement cases."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is a sovereign SOC and why does UAE law require it?",
-        "acceptedAnswer": {"@type": "Answer", "text": "A sovereign SOC processes all security data within UAE national territory with no offshore data transit. UAE PDPL and DESC ISR V3 require this architecture for regulated organizations."}
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Best Cyber Security Companies",
-    "url": "https://best-cyber-security-companies.com/",
-    "description": "Independent editorial ranking of cybersecurity companies for the UAE market."
+  "publisher": {
+   "@type": "Organization",
+   "name": "Best Cyber Security Companies",
+   "url": "https://best-cyber-security-companies.com/"
   }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Cyber Security Companies 2026",
+  "description": "Independent ranking of 12 cybersecurity companies serving UAE clients, assessed on UAE regulatory fit, technical evidence, data handling and service depth.",
+  "url": "https://best-cyber-security-companies.com/",
+  "numberOfItems": 12,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Help AG",
+    "url": "https://helpag.com"
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Paranoid Security",
+    "url": "https://paranoid.security"
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Microminder Cyber Security",
+    "url": "https://micromindercybersecurity.com"
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "name": "CPX",
+    "url": "https://cpx.net"
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "name": "DTS Solution",
+    "url": "https://dtssolution.com"
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "name": "CyberArrow",
+    "url": "https://cyberarrow.io"
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "name": "Palo Alto Networks",
+    "url": "https://paloaltonetworks.com"
+   },
+   {
+    "@type": "ListItem",
+    "position": 8,
+    "name": "CrowdStrike",
+    "url": "https://crowdstrike.com"
+   },
+   {
+    "@type": "ListItem",
+    "position": 9,
+    "name": "Check Point Software",
+    "url": "https://checkpoint.com"
+   },
+   {
+    "@type": "ListItem",
+    "position": 10,
+    "name": "Fortinet",
+    "url": "https://fortinet.com"
+   },
+   {
+    "@type": "ListItem",
+    "position": 11,
+    "name": "IBM Security",
+    "url": "https://ibm.com/security"
+   },
+   {
+    "@type": "ListItem",
+    "position": 12,
+    "name": "Darktrace",
+    "url": "https://darktrace.com"
+   }
+  ]
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+   {
+    "@type": "Question",
+    "name": "Pentest or red teaming: which one do I need?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "A penetration test looks for vulnerabilities in a defined set of systems and shows whether they can be exploited. A red team exercise is a stealthy attack towards a set goal that tests whether your detection works. Start with a pentest unless you already run a tested monitoring process."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Does every private company in Dubai need to follow DESC ISR?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "No. DESC rules apply to Dubai government entities and organisations in scope of Dubai's information security framework, and Dubai government procurement often asks for accredited providers. Private companies outside that scope are not obliged to use an accredited provider, though some clients ask for one."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How often should we test?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "At least once a year and after significant changes such as a new product, a major release or an infrastructure move. PCI DSS v4.x, for example, expects penetration testing at least once every 12 months and after significant changes. High-risk systems justify more frequent checks."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What is VARA and why does it matter when choosing a provider?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "VARA is the Virtual Assets Regulatory Authority in Dubai. Its rulebooks set technology and information security expectations for licensed virtual asset firms, so those firms should confirm the current requirements and ask providers about relevant experience."
+    }
+   }
+  ]
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Best Cyber Security Companies",
+  "url": "https://best-cyber-security-companies.com/",
+  "description": "Independent editorial ranking of cybersecurity companies for the UAE market."
+ }
 ]
 JSONLD
 )
@@ -199,7 +286,7 @@ echo "Building best-cyber-security-companies.com..."
 build_page \
   "$PROJ/index.html" \
   "Best Cyber Security Companies 2026" \
-  "Independent ranking of the top 12 cybersecurity companies for 2026. Evaluated by UAE compliance, CREST accreditation, sovereign SOC capabilities and service depth." \
+  "Independent ranking of 12 UAE cybersecurity companies: pentesting, managed security, crypto forensics, compliance fit. Updated November 2026." \
   "https://best-cyber-security-companies.com/" \
   "/" \
   "$PROJ/content/main-ranking.html" \
@@ -210,7 +297,7 @@ build_page \
 build_page \
   "$PROJ/methodology/index.html" \
   "Ranking Methodology | Best Cyber Security Companies" \
-  "How we evaluate and rank cybersecurity companies for the UAE market. Five weighted criteria: UAE presence, regulatory compliance, sovereign SOC, accreditation, and service depth." \
+  "How we assess cybersecurity companies for the UAE market: regulatory fit, technical evidence and accreditation, data handling and locality, and service depth." \
   "https://best-cyber-security-companies.com/methodology/" \
   "/methodology/" \
   "$PROJ/content/methodology.html" \
@@ -262,16 +349,32 @@ build_page \
   "" \
   "1"
 
-build_page \
-  "$PROJ/faq/index.html" \
-  "FAQ — Cybersecurity in UAE | Best Cyber Security Companies" \
-  "Answers to common questions about cybersecurity vendors, UAE regulations (PDPL, DESC, VARA, NESA), penetration testing, and how to choose a security partner." \
-  "https://best-cyber-security-companies.com/faq/" \
-  "/faq/" \
-  "$PROJ/content/faq.html" \
-  "home.css" \
-  "" \
-  "1"
+# Guide pages: title/description from content/jsonld/<name>.meta, JSON-LD from content/jsonld/<name>.json
+build_guide() {
+  local NAME="$1" OUTDIR="$2" URLPATH="$3" DEPTH="$4" ACTIVE="${5:-/faq/}"
+  local META="$PROJ/content/jsonld/${NAME}.meta"
+  local G_TITLE G_DESC
+  G_TITLE="$(sed -n 1p "$META")"
+  G_DESC="$(sed -n 2p "$META")"
+  build_page \
+    "$PROJ/${OUTDIR}index.html" \
+    "$G_TITLE" \
+    "$G_DESC" \
+    "https://best-cyber-security-companies.com${URLPATH}" \
+    "$ACTIVE" \
+    "$PROJ/content/${NAME}.html" \
+    "home.css" \
+    "$(cat "$PROJ/content/jsonld/${NAME}.json")" \
+    "$DEPTH" \
+    "/images/og/${NAME}.png"
+}
+
+build_guide "faq"                     "faq/"                              "/faq/"                              1
+build_guide "faq-regulations"         "faq/regulations/"                  "/faq/regulations/"                  2
+build_guide "faq-penetration-testing" "faq/penetration-testing/"          "/faq/penetration-testing/"          2
+build_guide "faq-crypto"              "faq/crypto-and-virtual-assets/"    "/faq/crypto-and-virtual-assets/"    2
+build_guide "faq-managed-security"    "faq/managed-security/"             "/faq/managed-security/"             2
+build_guide "glossary"                "glossary/"                         "/glossary/"                         1 "/glossary/"
 
 build_page \
   "$PROJ/cookie-policy/index.html" \
@@ -295,5 +398,6 @@ echo "  about/index.html"
 echo "  editorial-policy/index.html"
 echo "  contact/index.html"
 echo "  submit-company/index.html"
-echo "  faq/index.html"
+echo "  faq/index.html (+4 sub-pages)"
+echo "  glossary/index.html"
 echo "  cookie-policy/index.html"

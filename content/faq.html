@@ -1,107 +1,80 @@
 <main>
-  <section class="page-hero">
-    <div class="container">
-      <div class="breadcrumb"><a href="/">Home</a> <span>/</span> FAQ</div>
-      <h1>Frequently Asked Questions</h1>
-      <p>Answers to common questions about cybersecurity vendors, UAE regulations, and how to choose a security partner.</p>
-    </div>
-  </section>
+<section class="page-hero page-hero--guide">
+  <img class="page-hero__bg" src="/images/hero-network.svg" alt="" width="1600" height="640" fetchpriority="high" decoding="async">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">Home</a> <span>/</span> FAQ</div>
+    <h1>Cybersecurity and IT FAQ for the UAE</h1>
+    <p class="guide-byline"><span>Editorial Team, Cyber Vendor Research</span> &middot; Published: <time datetime="2026-11-20">November 2026</time> &middot; Updated: <time datetime="2026-11-20">November 2026</time></p>
+  </div>
+</section>
+<section class="guide"><div class="container guide__layout">
+<div class="guide__main prose-content">
+<p class="guide-lead">Short answers to the questions UAE buyers ask most often when they choose a cybersecurity provider. Each answer states what the rule or practice is, what it means for your purchase and what to confirm before you sign. Regulations change, so confirm the current text with your regulator or a lawyer. For the full list of providers, see the <a href="/">ranking of UAE cybersecurity companies</a>.</p><h2 class="guide-h2 guide-h2--small">Deeper guides</h2><div class="guide-cards"><a class="guide-card" href="/faq/regulations/"><strong>Regulations FAQ</strong><span>PDPL, DESC ISR, UAE IA, DIFC, ADGM, CBUAE, ADHICS, PCI DSS</span></a><a class="guide-card" href="/faq/penetration-testing/"><strong>Penetration testing FAQ</strong><span>Scope, black/gray/white box, cost, reports, retest</span></a><a class="guide-card" href="/faq/crypto-and-virtual-assets/"><strong>Crypto and virtual assets FAQ</strong><span>VARA, blockchain forensics, Travel Rule</span></a><a class="guide-card" href="/faq/managed-security/"><strong>Managed security FAQ</strong><span>MSSP, MDR, SOC, SLA metrics, testing a provider</span></a><a class="guide-card" href="/glossary/"><strong>Cybersecurity glossary</strong><span>30 terms from proposals, contracts and regulations</span></a></div><h2 class="guide-h2">Testing</h2>
+<section class="qa" id="pentest-vs-red-teaming" aria-labelledby="pentest-vs-red-teaming-h">
+  <h3 id="pentest-vs-red-teaming-h">What is the difference between penetration testing and red teaming?</h3>
+  <p>A penetration test examines a defined set of systems, looks for as many vulnerabilities as possible and shows which of them an attacker could exploit. A red team engagement works differently: the provider picks a business goal, such as access to a payment system, and pursues it stealthily to see whether your monitoring notices. Pentests answer "what is weak?", red teaming answers "would we see an attack?". Companies without a working monitoring process should begin with a pentest; red teaming gives most value once basic weaknesses are closed and a security operations team exists. In practice, many UAE companies run a pentest first, fix the findings, retest, and only then consider a red team engagement. A provider that offers both should explain which one answers your question rather than steer you to the larger project.</p>
+</section>
 
-  <section class="faq-page-content">
-    <div class="container">
-      <div class="faq__list">
+<figure class="guide-figure"><img src="/images/faq-pentest-vs-red-team.svg" width="1200" height="428" loading="lazy" alt="Diagram comparing a penetration test, red teaming and a compliance audit: the question each answers, scope, method and result"><figcaption>What a penetration test, red teaming and a compliance audit each answer.</figcaption></figure>
+<section class="qa" id="testing-frequency" aria-labelledby="testing-frequency-h">
+  <h3 id="testing-frequency-h">How often should a company run penetration tests in the UAE?</h3>
+  <p>A practical rule is once a year, plus after significant changes: a new product, a major release, a cloud migration or an acquisition. PCI DSS v4.x asks for penetration testing at least once every 12 months and after significant changes for in-scope environments. Systems that handle money or sensitive data, or that change often, justify more frequent or continuous testing. Keep the report and the retest result as evidence for clients, auditors and regulators. Write the trigger events into your security policy, for example every major release or every change to a payment flow, so that the decision to retest does not depend on who remembers.</p>
+</section>
 
-        <details class="faq-item">
-          <summary>
-            <h2 style="font-family:var(--font-body);font-size:0.9375rem;font-weight:600;color:var(--navy);margin:0;line-height:1.4">What is the difference between penetration testing and red teaming?</h2>
-            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-          </summary>
-          <div class="faq-item__body">
-            <p>Penetration testing enumerates vulnerabilities within a defined scope — specific systems, applications, or network segments — over a fixed timeframe. The goal is a complete findings list with CVSS scores and remediation guidance. Red teaming simulates a real adversary pursuing a specific objective (data exfiltration, system compromise) without predefined scope. Red team engagements test detection and response capability, not just vulnerability presence. Organizations should have mature security controls before commissioning red team work; penetration testing is the appropriate starting point.</p>
-          </div>
-        </details>
+<section class="qa" id="cost" aria-labelledby="cost-h">
+  <h3 id="cost-h">How much does a penetration test cost in the UAE?</h3>
+  <p>Our editorial estimate for November 2026: a basic web application test starts at about AED 7,000, while broad enterprise scope covering web, mobile, internal network and external perimeter can reach AED 50,000 and above. This is an estimate, not a price list. Price rises with the number of applications, user roles and APIs, the share of manual work, and the retest terms. A very low quote usually means an automated scan with a formatted report. Ask each provider for the number of tester-days behind the quote. Two quotes with the same total can hide very different amounts of manual work.</p>
+</section>
 
-        <details class="faq-item">
-          <summary>
-            <h2 style="font-family:var(--font-body);font-size:0.9375rem;font-weight:600;color:var(--navy);margin:0;line-height:1.4">Is DESC ISR V3 compliance mandatory for private companies in Dubai?</h2>
-            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-          </summary>
-          <div class="faq-item__body">
-            <p>DESC ISR V3 is mandatory for all <a href="https://www.desc.gov.ae" target="_blank" rel="noopener">Dubai Government</a> and semi-government entities and their technology vendors. Private companies with no government contracts are not legally required to comply. However, any private firm seeking to supply cybersecurity services to Dubai government entities must demonstrate DESC compliance or work with a DESC-accredited provider.</p>
-          </div>
-        </details>
+<h2 class="guide-h2">Data protection</h2>
+<section class="qa" id="pdpl" aria-labelledby="pdpl-h">
+  <h3 id="pdpl-h">What does the UAE PDPL require on security and breaches?</h3>
+  <p>The Personal Data Protection Law (Federal Decree-Law No. 45 of 2021) requires organisations to protect personal data with appropriate technical and organisational measures (Article 20) and to notify personal data breaches (Article 9). It regulates transfers of personal data outside the UAE (Articles 22–23) instead of prohibiting them. The law does not set a fixed number of hours for breach notification; the procedure sits in the executive regulations, whose status you should confirm. The DIFC and ADGM free zones follow their own data protection regimes. It is good practice to keep records showing which measures you chose and why, because a regulator or a client may ask how you decided that they were appropriate.</p>
+</section>
 
-        <details class="faq-item">
-          <summary>
-            <h2 style="font-family:var(--font-body);font-size:0.9375rem;font-weight:600;color:var(--navy);margin:0;line-height:1.4">What does UAE PDPL require from cybersecurity vendors?</h2>
-            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-          </summary>
-          <div class="faq-item__body">
-            <p><a href="https://pdpl.gov.ae" target="_blank" rel="noopener">UAE PDPL (Federal Decree-Law No. 45 of 2021)</a> requires that PII of UAE residents be processed and stored on UAE soil. For cybersecurity vendors: SIEM telemetry and log data must not route through offshore data centers; breach notification to the UAE Data Office is mandatory within 72 hours of discovery; vendors without UAE-resident infrastructure cannot legally fulfill data processing functions for PDPL-regulated organizations.</p>
-          </div>
-        </details>
+<section class="qa" id="data-residency" aria-labelledby="data-residency-h">
+  <h3 id="data-residency-h">What does UAE data residency mean for managed security providers?</h3>
+  <p>The PDPL does not require all personal data to be processed in the UAE; it regulates transfers abroad. Some sectors and government contracts do require local processing of logs and reports. When a provider monitors your systems, ask where logs are processed and stored, which sub-processors have access, which clauses govern transfers, and how long data stays after the contract ends. Get the answers in writing and put them into the data processing agreement. Where a provider offers UAE-based monitoring, still read the contract terms: the location of the people who can access your data matters as much as the location of the servers.</p>
+</section>
 
-        <details class="faq-item">
-          <summary>
-            <h2 style="font-family:var(--font-body);font-size:0.9375rem;font-weight:600;color:var(--navy);margin:0;line-height:1.4">How often should a company conduct penetration testing in the UAE?</h2>
-            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-          </summary>
-          <div class="faq-item__body">
-            <p>UAE regulatory minimums: DESC ISR V3 — annual for in-scope systems; NESA — annual with mandatory reporting; VARA — annual for all licensed VASPs; PCI DSS — annual pentest plus quarterly vulnerability scanning. Outside regulatory mandates, security practitioners recommend annual external perimeter testing as a baseline, with quarterly web application assessments for organizations with active development cycles.</p>
-          </div>
-        </details>
+<h2 class="guide-h2">Government and sector rules</h2>
+<section class="qa" id="desc-isr" aria-labelledby="desc-isr-h">
+  <h3 id="desc-isr-h">Is DESC ISR compliance mandatory for private companies in Dubai?</h3>
+  <p>Not for every private company. The Dubai Electronic Security Center's Information Security Regulation applies to Dubai government entities and organisations that fall within Dubai's information security framework. If you supply such entities, their contracts may ask you to align with DESC requirements or to use accredited providers. Ask DESC or the contracting entity whether your company is in scope before you build a shortlist around accreditation. Where DESC rules do apply, the provider requirement is a procurement matter for the contracting entity, so the safest step is to ask that entity for its written requirement.</p>
+</section>
 
-        <details class="faq-item">
-          <summary>
-            <h2 style="font-family:var(--font-body);font-size:0.9375rem;font-weight:600;color:var(--navy);margin:0;line-height:1.4">What is VARA and why does it affect cybersecurity vendor selection?</h2>
-            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-          </summary>
-          <div class="faq-item__body">
-            <p><a href="https://www.vara.ae" target="_blank" rel="noopener">VARA (Virtual Assets Regulatory Authority)</a> is Dubai's regulator for crypto exchanges, DeFi platforms, NFT marketplaces, and related businesses. VARA licensing requires: annual penetration testing by a qualified provider, a documented incident response plan covering virtual asset scenarios, AML controls, and blockchain forensics capability. General-purpose MSSPs without blockchain forensics expertise cannot fulfill VARA's incident response requirements.</p>
-          </div>
-        </details>
+<section class="qa" id="uae-ia" aria-labelledby="uae-ia-h">
+  <h3 id="uae-ia-h">What is the UAE Information Assurance Regulation (formerly NESA)?</h3>
+  <p>The UAE Information Assurance Regulation was developed by the National Electronic Security Authority (NESA), now part of the Signals Intelligence Agency, and applies to government entities and organisations designated as critical. Sources use several names for the document and its administering body, so verify the current name and version on the official site of the UAE Cyber Security Council before you cite it in a tender or contract. Providers that serve critical sectors should be able to map their deliverables to its controls. If you are unsure whether the regulation reaches you, ask the client or the sector authority that requested alignment which version and which controls they mean.</p>
+</section>
 
-        <details class="faq-item">
-          <summary>
-            <h2 style="font-family:var(--font-body);font-size:0.9375rem;font-weight:600;color:var(--navy);margin:0;line-height:1.4">What is blockchain forensics and when is it needed?</h2>
-            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-          </summary>
-          <div class="faq-item__body">
-            <p>Blockchain forensics is the investigation of cryptocurrency transactions to trace fund movement, attribute wallet ownership, and build court-admissible evidence chains. It is required when a business loses funds to a crypto hack, a VARA-regulated exchange investigates suspicious activity, or law enforcement requires technical expert support. Specialized tools (Chainalysis, Elliptic, TRM Labs) and trained analysts are required — standard digital forensics firms cannot conduct these investigations.</p>
-          </div>
-        </details>
+<section class="qa" id="vara" aria-labelledby="vara-h">
+  <h3 id="vara-h">What is VARA and why does it affect the choice of provider?</h3>
+  <p>VARA is the Virtual Assets Regulatory Authority in Dubai, covering virtual asset activity outside DIFC. Its rulebooks set expectations for licensed firms, including technology and information security. A licensed exchange, broker or custodian should read the current rulebooks, then ask providers whether they have tested similar platforms and can trace funds on-chain after an incident. Other crypto-related firms may answer to DFSA, FSRA or SCA instead. Keep your own evidence of security testing and incident readiness: the rulebooks describe expectations, and the proof that you meet them is yours to produce.</p>
+</section>
 
-        <details class="faq-item">
-          <summary>
-            <h2 style="font-family:var(--font-body);font-size:0.9375rem;font-weight:600;color:var(--navy);margin:0;line-height:1.4">What is a sovereign SOC and why does UAE law require it?</h2>
-            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-          </summary>
-          <div class="faq-item__body">
-            <p>A sovereign SOC is a security operations center where all data processing, storage, and analyst operations occur within UAE national territory — no offshore data transit. UAE PDPL's data residency requirement makes sovereign SOC architecture necessary for organizations handling UAE resident PII. <a href="https://www.desc.gov.ae" target="_blank" rel="noopener">DESC ISR V3</a> additionally requires DESC-accredited providers with verified UAE data handling for Dubai government entities.</p>
-          </div>
-        </details>
+<h2 class="guide-h2">Choosing a provider</h2>
+<section class="qa" id="accreditation" aria-labelledby="accreditation-h">
+  <h3 id="accreditation-h">How do I verify a provider&#x27;s accreditation?</h3>
+  <p>Use the register of the body that issued it, not the provider's marketing page. DESC publishes accredited providers; CREST maintains a member list. Check the exact service type (penetration testing is not incident response), the validity period and the legal entity named. Also ask for evidence that does not depend on a badge: sample reports, original vulnerability research and the certifications of the individuals who will do the work. Check the register again when you renew a contract, because status and scope change.</p>
+</section>
 
-        <details class="faq-item">
-          <summary>
-            <h2 style="font-family:var(--font-body);font-size:0.9375rem;font-weight:600;color:var(--navy);margin:0;line-height:1.4">How do I verify a cybersecurity company's CREST accreditation?</h2>
-            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-          </summary>
-          <div class="faq-item__body">
-            <p>CREST maintains a public directory of accredited companies and individual testers at <a href="https://www.crest-approved.org" target="_blank" rel="noopener">crest-approved.org</a>. Search by company name or individual tester name to verify current accreditation status. CREST accreditation must be renewed — confirm the expiry date on the certificate. A company claiming CREST accreditation whose name does not appear in the public directory is making an unverifiable claim.</p>
-          </div>
-        </details>
+<section class="qa" id="mssp-mdr" aria-labelledby="mssp-mdr-h">
+  <h3 id="mssp-mdr-h">What is the difference between MSSP and MDR?</h3>
+  <p>An MSSP (managed security service provider) runs security services for you, usually monitoring and alert handling, often across firewalls, logs and endpoints. MDR (managed detection and response) focuses on detecting and actively responding to threats, usually with analysts who investigate and act, not just forward alerts. The boundary is blurred, and providers use both labels for overlapping services. Compare them by what the contract commits to: alert triage, response actions, reporting and response times. A useful test is to ask who writes and owns the detection rules, and who is called when an alert is confirmed at three in the morning.</p>
+</section>
 
-        <details class="faq-item">
-          <summary>
-            <h2 style="font-family:var(--font-body);font-size:0.9375rem;font-weight:600;color:var(--navy);margin:0;line-height:1.4">What is the difference between MSSP and MDR?</h2>
-            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
-          </summary>
-          <div class="faq-item__body">
-            <p>A Managed Security Service Provider (MSSP) typically delivers monitoring, alert management, and compliance reporting — often with a focus on maintaining security tools rather than proactive threat hunting. Managed Detection and Response (MDR) is a more active service: MDR providers deploy specialized threat hunting, behavioral analysis, and hands-on incident response, not just alert forwarding. MDR SLAs typically commit to a specific response time (15–30 minutes) for confirmed threats; traditional MSSP contracts rarely include response time guarantees.</p>
-          </div>
-        </details>
+<section class="qa" id="blockchain-forensics" aria-labelledby="blockchain-forensics-h">
+  <h3 id="blockchain-forensics-h">What is blockchain forensics and when is it needed?</h3>
+  <p>Blockchain forensics follows the movement of crypto assets on public ledgers: it reconstructs transactions, groups related addresses and records where funds reached identifiable services. It is needed after theft, fraud or a key leak, and by firms that must screen incoming transfers. The result is an evidence-based reconstruction with stated confidence, not a guarantee of recovery. Details are in the <a href="/faq/crypto-and-virtual-assets/">crypto and virtual assets FAQ</a>. Early contact helps: funds that have reached a service which cooperates may still be traceable and, in some cases, stopped; later steps are harder.</p>
+</section>
 
-      </div>
-    </div>
-  </section>
+<section class="qa" id="choose-provider" aria-labelledby="choose-provider-h">
+  <h3 id="choose-provider-h">How do I choose a cybersecurity company in the UAE?</h3>
+  <p>Start from your task: testing, monitoring, compliance or incident response. Then check your regulator and contract requirements, ask for a sample report or service description, confirm where data is processed, verify accreditation in the register and ask for references in your sector. Compare quotes on scope and retest terms rather than price alone. Our <a href="/">ranking</a> and <a href="/methodology/">methodology</a> show how we assess the providers listed. Where possible, run a short pilot: a scoped test or a month of monitoring tells you more about a provider than a presentation.</p>
+</section>
+<p class="guide-sources"><strong>Sources.</strong> <a href="https://csc.gov.ae" target="_blank" rel="noopener">UAE Cyber Security Council</a>, <a href="https://desc.gov.ae" target="_blank" rel="noopener">Dubai Electronic Security Center</a>, <a href="https://www.vara.ae" target="_blank" rel="noopener">VARA</a>, <a href="https://www.pcisecuritystandards.org" target="_blank" rel="noopener">PCI Security Standards Council</a>, <a href="https://www.crest-approved.org" target="_blank" rel="noopener">CREST</a>.</p>
+</div>
+<aside class="guide__toc" aria-label="Contents"><p class="guide__toc-title">Contents</p><ol><li><a href="#pentest-vs-red-teaming">What is the difference between penetration testing and red teaming?</a></li><li><a href="#testing-frequency">How often should a company run penetration tests in the UAE?</a></li><li><a href="#cost">How much does a penetration test cost in the UAE?</a></li><li><a href="#pdpl">What does the UAE PDPL require on security and breaches?</a></li><li><a href="#data-residency">What does UAE data residency mean for managed security providers?</a></li><li><a href="#desc-isr">Is DESC ISR compliance mandatory for private companies in Dubai?</a></li><li><a href="#uae-ia">What is the UAE Information Assurance Regulation (formerly NESA)?</a></li><li><a href="#vara">What is VARA and why does it affect the choice of provider?</a></li><li><a href="#accreditation">How do I verify a provider&#x27;s accreditation?</a></li><li><a href="#mssp-mdr">What is the difference between MSSP and MDR?</a></li><li><a href="#blockchain-forensics">What is blockchain forensics and when is it needed?</a></li><li><a href="#choose-provider">How do I choose a cybersecurity company in the UAE?</a></li></ol></aside>
+</div></section>
 </main>

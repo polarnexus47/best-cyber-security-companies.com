@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 396" role="img" aria-label="Diagram: firms licensed in Dubai outside DIFC and active in virtual assets answer to VARA; DIFC firms follow the DIFC data protection law and the DFSA; ADGM firms follow the ADGM data protection regulations and the FSRA; federal rules include the PDPL, CBUAE and SCA">
+<style>
+:root{--bg:#ffffff;--tile:#F0F7FF;--line:#D3E3F5;--ink:#111827;--mute:#4B5563;--acc:#D95A1E}
+@media (prefers-color-scheme:dark){:root{--bg:#0A0F1C;--tile:#141C30;--line:#28355A;--ink:#F3F5FA;--mute:#AAB4CC;--acc:#F58A55}}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;fill:var(--ink)}
+.m{fill:var(--mute)}.t{font-weight:600}.a{fill:var(--acc);font-weight:700;letter-spacing:.06em}
+</style>
+<rect width="1200" height="396" rx="16" fill="var(--bg)"/>
+<text x="40" y="52" class="t" font-size="24">Which regulator applies? Start from where you are licensed</text>
+<rect x="40" y="84" width="268" height="286" rx="14" fill="var(--tile)" stroke="var(--line)"/>
+<rect x="40" y="84" width="268" height="4" rx="2" fill="var(--acc)"/>
+<text x="58" y="122" class="t" font-size="20">Dubai (outside DIFC)</text>
+<text x="58" y="154" class="a" font-size="13">DATA PROTECTION</text>
+<text x="58" y="175" class="m" font-size="15">Federal PDPL</text>
+<text x="58" y="207" class="a" font-size="13">FINANCIAL / CRYPTO</text>
+<text x="58" y="228" class="m" font-size="15">VARA for virtual asset firms</text>
+<text x="58" y="260" class="a" font-size="13">GOVERNMENT WORK</text>
+<text x="58" y="281" class="m" font-size="15">DESC ISR for Dubai government</text>
+<text x="58" y="301" class="m" font-size="15">entities and their suppliers</text>
+<rect x="324" y="84" width="268" height="286" rx="14" fill="var(--tile)" stroke="var(--line)"/>
+<rect x="324" y="84" width="268" height="4" rx="2" fill="var(--acc)"/>
+<text x="342" y="122" class="t" font-size="20">DIFC</text>
+<text x="342" y="154" class="a" font-size="13">DATA PROTECTION</text>
+<text x="342" y="175" class="m" font-size="15">DIFC Data Protection Law</text>
+<text x="342" y="207" class="a" font-size="13">FINANCIAL / CRYPTO</text>
+<text x="342" y="228" class="m" font-size="15">DFSA</text>
+<text x="342" y="260" class="a" font-size="13">GOVERNMENT WORK</text>
+<text x="342" y="281" class="m" font-size="15">Check the contracting entity's</text>
+<text x="342" y="301" class="m" font-size="15">written requirement</text>
+<rect x="608" y="84" width="268" height="286" rx="14" fill="var(--tile)" stroke="var(--line)"/>
+<rect x="608" y="84" width="268" height="4" rx="2" fill="var(--acc)"/>
+<text x="626" y="122" class="t" font-size="20">ADGM</text>
+<text x="626" y="154" class="a" font-size="13">DATA PROTECTION</text>
+<text x="626" y="175" class="m" font-size="15">ADGM Data Protection Regulations</text>
+<text x="626" y="207" class="a" font-size="13">FINANCIAL / CRYPTO</text>
+<text x="626" y="228" class="m" font-size="15">FSRA</text>
+<text x="626" y="260" class="a" font-size="13">GOVERNMENT WORK</text>
+<text x="626" y="281" class="m" font-size="15">Check the contracting entity's</text>
+<text x="626" y="301" class="m" font-size="15">written requirement</text>
+<rect x="892" y="84" width="268" height="286" rx="14" fill="var(--tile)" stroke="var(--line)"/>
+<rect x="892" y="84" width="268" height="4" rx="2" fill="var(--acc)"/>
+<text x="910" y="122" class="t" font-size="20">Federal level</text>
+<text x="910" y="154" class="a" font-size="13">DATA PROTECTION</text>
+<text x="910" y="175" class="m" font-size="15">PDPL (Federal Decree-Law No. 45</text>
+<text x="910" y="195" class="m" font-size="15">of 2021)</text>
+<text x="910" y="227" class="a" font-size="13">FINANCIAL / CRYPTO</text>
+<text x="910" y="248" class="m" font-size="15">CBUAE for banks; SCA for</text>
+<text x="910" y="268" class="m" font-size="15">securities</text>
+<text x="910" y="300" class="a" font-size="13">GOVERNMENT WORK</text>
+<text x="910" y="321" class="m" font-size="15">UAE IA Regulation for government</text>
+<text x="910" y="341" class="m" font-size="15">and critical entities</text>
+</svg>

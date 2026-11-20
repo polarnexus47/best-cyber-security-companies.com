@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 396" role="img" aria-label="Diagram: an MSSP runs security services such as monitoring and alert handling; MDR focuses on detection and active response by analysts; SOC-as-a-service operates the security operations centre function for you">
+<style>
+:root{--bg:#ffffff;--tile:#F0F7FF;--line:#D3E3F5;--ink:#111827;--mute:#4B5563;--acc:#D95A1E}
+@media (prefers-color-scheme:dark){:root{--bg:#0A0F1C;--tile:#141C30;--line:#28355A;--ink:#F3F5FA;--mute:#AAB4CC;--acc:#F58A55}}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;fill:var(--ink)}
+.m{fill:var(--mute)}.t{font-weight:600}.a{fill:var(--acc);font-weight:700;letter-spacing:.06em}
+</style>
+<rect width="1200" height="396" rx="16" fill="var(--bg)"/>
+<text x="40" y="52" class="t" font-size="24">MSSP, MDR and SOC-as-a-service: what each label usually means</text>
+<rect x="40" y="84" width="363" height="286" rx="14" fill="var(--tile)" stroke="var(--line)"/>
+<rect x="40" y="84" width="363" height="4" rx="2" fill="var(--acc)"/>
+<text x="58" y="122" class="t" font-size="20">MSSP</text>
+<text x="58" y="154" class="a" font-size="13">FOCUS</text>
+<text x="58" y="175" class="m" font-size="15">Runs security services for you, typically</text>
+<text x="58" y="195" class="m" font-size="15">monitoring and alert handling</text>
+<text x="58" y="227" class="a" font-size="13">TYPICAL SOURCES</text>
+<text x="58" y="248" class="m" font-size="15">Firewalls, logs and endpoints</text>
+<text x="58" y="280" class="a" font-size="13">ASK</text>
+<text x="58" y="301" class="m" font-size="15">Which sources are monitored and who triages</text>
+<text x="58" y="321" class="m" font-size="15">alerts?</text>
+<rect x="419" y="84" width="363" height="286" rx="14" fill="var(--tile)" stroke="var(--line)"/>
+<rect x="419" y="84" width="363" height="4" rx="2" fill="var(--acc)"/>
+<text x="437" y="122" class="t" font-size="20">MDR</text>
+<text x="437" y="154" class="a" font-size="13">FOCUS</text>
+<text x="437" y="175" class="m" font-size="15">Detection and active response, with</text>
+<text x="437" y="195" class="m" font-size="15">analysts who investigate and act</text>
+<text x="437" y="227" class="a" font-size="13">TYPICAL SOURCES</text>
+<text x="437" y="248" class="m" font-size="15">Endpoint (EDR), network, cloud and identity</text>
+<text x="437" y="268" class="m" font-size="15">data</text>
+<text x="437" y="300" class="a" font-size="13">ASK</text>
+<text x="437" y="321" class="m" font-size="15">Which response actions may the provider</text>
+<text x="437" y="341" class="m" font-size="15">take without approval?</text>
+<rect x="797" y="84" width="363" height="286" rx="14" fill="var(--tile)" stroke="var(--line)"/>
+<rect x="797" y="84" width="363" height="4" rx="2" fill="var(--acc)"/>
+<text x="815" y="122" class="t" font-size="20">SOC-as-a-service</text>
+<text x="815" y="154" class="a" font-size="13">FOCUS</text>
+<text x="815" y="175" class="m" font-size="15">The provider operates the security</text>
+<text x="815" y="195" class="m" font-size="15">operations centre function for you</text>
+<text x="815" y="227" class="a" font-size="13">TYPICAL SOURCES</text>
+<text x="815" y="248" class="m" font-size="15">SIEM fed by the log sources you connect</text>
+<text x="815" y="280" class="a" font-size="13">ASK</text>
+<text x="815" y="301" class="m" font-size="15">Who owns the detection rules if you switch</text>
+<text x="815" y="321" class="m" font-size="15">provider?</text>
+</svg>

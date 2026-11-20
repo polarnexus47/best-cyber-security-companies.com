@@ -1,0 +1,11 @@
+# Internal working files: never publish (strategy, briefs, files for other sites)
+s4-strategy.md
+s4-content.md
+images-recommendations.md
+hero-bg.svg
+s3-*.svg
+s4-pentest-vs-red-team.svg
+temporary screenshots/
+node_modules/
+.DS_Store
+.build_tmp/

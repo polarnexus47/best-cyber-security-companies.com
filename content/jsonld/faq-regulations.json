@@ -1,0 +1,134 @@
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "UAE Cybersecurity Regulations FAQ: PDPL, DESC, UAE IA, VARA, PCI DSS",
+  "description": "Plain answers on UAE cybersecurity rules: PDPL, DESC ISR, UAE IA, DIFC and ADGM, VARA, ADHICS and PCI DSS. Updated November 2026.",
+  "url": "https://best-cyber-security-companies.com/faq/regulations/",
+  "mainEntityOfPage": "https://best-cyber-security-companies.com/faq/regulations/",
+  "inLanguage": "en",
+  "datePublished": "2026-11-20",
+  "dateModified": "2026-11-20",
+  "author": {
+   "@type": "Organization",
+   "name": "Editorial Team, Cyber Vendor Research",
+   "url": "https://best-cyber-security-companies.com/about/"
+  },
+  "publisher": {
+   "@type": "Organization",
+   "name": "Best Cyber Security Companies",
+   "url": "https://best-cyber-security-companies.com/"
+  },
+  "image": "https://best-cyber-security-companies.com/images/og/faq-regulations.png"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://best-cyber-security-companies.com/"
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "FAQ",
+    "item": "https://best-cyber-security-companies.com/faq/"
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Regulations",
+    "item": "https://best-cyber-security-companies.com/faq/regulations/"
+   }
+  ]
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+   {
+    "@type": "Question",
+    "name": "Who does the PDPL apply to and what does it require on security?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "The Personal Data Protection Law, Federal Decree-Law No. 45 of 2021, applies to organisations that process personal data of people in the UAE, including some operating from abroad, with exclusions such as government data and areas covered by other regimes. For security, Article 20 requires appropriate technical and organisational measures to protect personal data. In practice, buyers translate this into access control, encryption, testing and logging, and ask providers to show how their own handling of personal data matches the same standard. For a security buyer the practical question is narrower: does the project involve personal data, such as customer records in a tested application or logs with user identifiers? If it does, ask the provider how it limits access, anonymises data where possible and deletes test data afterwards."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What does the PDPL say about breach notification?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Article 9 requires organisations to notify the competent authority, and in certain cases the affected people, of a personal data breach. The law itself does not give a number of hours; details such as timing and content depend on the executive regulations, whose current status should be confirmed. A figure of \"72 hours\" belongs to the EU's GDPR and should not be quoted as a UAE rule. Prepare an incident process that lets you decide quickly whether a breach is notifiable. Decide in advance who assesses a suspected breach, how evidence is preserved and who speaks to the regulator and to the affected people. An incident response retainer can support this, but the decision to notify stays with you."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What does the PDPL say about transfers of data outside the UAE?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Articles 22 and 23 regulate cross-border transfers: transfers to jurisdictions with adequate protection are treated differently from transfers where adequacy is not established, which require additional safeguards such as contractual terms or consent. The law does not forbid foreign processing in general. For a security provider with offshore analysts or tools, ask for the list of sub-processors, the countries involved and the contract clauses that cover transfers. Typical triggers are a monitoring tool hosted abroad, analysts working from another country and support tickets that include log excerpts. Each is a transfer your contract and the provider's sub-processor list should cover."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Who needs to follow DESC ISR?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "The Information Security Regulation of the Dubai Electronic Security Center applies to Dubai government entities and organisations within Dubai's information security framework. Contractors of those entities often have to meet its requirements through their contracts. DESC also runs an accreditation scheme for some service types, for example penetration testing and incident response. Ask the contracting entity what it requires from suppliers and check the DESC register for providers. Accreditation is service-specific: a provider accredited for penetration testing is not automatically accredited for incident response, and the register shows the difference."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What is the UAE Information Assurance Regulation and who must follow it?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "It is a set of information assurance controls developed under NESA, now part of the Signals Intelligence Agency, for government entities and organisations designated as critical. Other organisations are not directly bound, though government and critical-sector clients often ask suppliers to align with it. Because documents and websites use varying names, verify the current version and administering body on the UAE Cyber Security Council's official site. In a tender, quote the document exactly as the client does and ask which controls the supplier is expected to map. Vague references to \"NESA compliance\" create disputes later."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How does the DIFC Data Protection Law differ from the federal PDPL?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "DIFC, the Dubai International Financial Centre, has its own data protection law and a Commissioner of Data Protection; firms licensed there follow that regime rather than the federal PDPL for matters it covers. Financial services in DIFC are supervised by the DFSA. When you brief a provider, state that you are DIFC-licensed so the report maps to the right framework. The DIFC regime has its own duties for notification and record-keeping, so a provider's standard UAE report template may need adjustment."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How do the ADGM Data Protection Regulations apply?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Abu Dhabi Global Market also has its own data protection rules, the ADGM Data Protection Regulations, and its own financial regulator, the FSRA. Firms licensed in ADGM follow these rules inside the free zone. The practical consequence is the same as for DIFC: tell the provider where you are licensed, and ask it to reflect ADGM requirements in the scope and the report. ADGM-licensed firms should confirm whether a test report or a monitoring service involves data that falls under the ADGM rules, and check the provider's terms for that case."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What do banks and licensed financial institutions need from a security provider?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "The Central Bank of the UAE supervises banks and other licensed financial institutions at federal level. Banks typically combine continuous monitoring with periodic independent testing of web, mobile and API channels, and expect regulator-ready evidence. Confirm the exact testing requirements in the current central bank rules and in your supervisor's guidance, and ask providers whether they have worked with CBUAE-supervised clients. Typical evidence includes the scope, the test date, the provider's independence statement, a summary of findings and the retest result. Agree the format with your compliance team before the engagement starts."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What is ADHICS and who must comply?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "ADHICS is the Abu Dhabi Healthcare Information and Cyber Security Standard issued by the Department of Health – Abu Dhabi for healthcare entities in the emirate. Its controls cover areas such as vulnerability management and security testing. Healthcare providers and their suppliers should ask security vendors about experience with ADHICS-style assessments, and confirm requirements with the Department of Health. Because patient data is involved, pay attention to how the provider handles data it sees during testing, who has access and how long materials are kept."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What does PCI DSS v4.x say about penetration testing?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "For organisations that store, process or transmit payment card data, Requirement 11.4 covers external and internal penetration testing at least once every 12 months and after significant changes, performed by a qualified internal resource or an independent external provider. Vulnerability scanning is a separate requirement (11.3). Participation of a QSA is not a condition of the test itself, though your assessor will review the evidence. Ask providers whether their report format suits your assessor. Define the cardholder data environment and its segmentation in the scope: test coverage must follow how that environment is separated from the rest of the network."
+    }
+   }
+  ]
+ }
+]

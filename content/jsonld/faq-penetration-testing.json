@@ -1,0 +1,134 @@
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Penetration Testing FAQ for UAE Businesses",
+  "description": "Penetration testing in the UAE: black, gray and white box, frequency, cost, report contents, retest and choosing a provider. Updated November 2026.",
+  "url": "https://best-cyber-security-companies.com/faq/penetration-testing/",
+  "mainEntityOfPage": "https://best-cyber-security-companies.com/faq/penetration-testing/",
+  "inLanguage": "en",
+  "datePublished": "2026-11-20",
+  "dateModified": "2026-11-20",
+  "author": {
+   "@type": "Organization",
+   "name": "Editorial Team, Cyber Vendor Research",
+   "url": "https://best-cyber-security-companies.com/about/"
+  },
+  "publisher": {
+   "@type": "Organization",
+   "name": "Best Cyber Security Companies",
+   "url": "https://best-cyber-security-companies.com/"
+  },
+  "image": "https://best-cyber-security-companies.com/images/og/faq-penetration-testing.png"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://best-cyber-security-companies.com/"
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "FAQ",
+    "item": "https://best-cyber-security-companies.com/faq/"
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Penetration testing",
+    "item": "https://best-cyber-security-companies.com/faq/penetration-testing/"
+   }
+  ]
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+   {
+    "@type": "Question",
+    "name": "What is a penetration test?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "A penetration test is an authorised attempt to break into your systems the way an attacker would, to find weaknesses and show which of them can be exploited. The provider agrees the scope with you, performs the testing and delivers a report with findings, evidence and recommendations. A test checks the state of defences at a moment in time; it does not prove that a system is secure for good. A well-scoped test covers what matters to the business: a payment flow, an admin panel, an API behind a mobile app. Starting from the assets you cannot afford to lose gives better value than testing everything shallowly."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What are black box, gray box and white box testing?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "They differ in how much the tester knows in advance. In black box testing the tester has no information beyond what an outside attacker would find. In gray box testing the tester receives some access, such as a user account, to examine what a logged-in user could do. In white box testing the tester also has documentation and often source code. Gray box is a common compromise: it finds more serious issues in the same time than black box. Many buyers choose gray box for web and mobile applications and black box for external perimeter checks; white box suits critical code and works best when testers can talk to developers."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How often should we test?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "At least once a year and after significant change: a new product, a major release, a migration or an acquisition. If you fall under PCI DSS v4.x, penetration testing is expected at least once every 12 months and after significant changes. Fast-moving or high-risk systems benefit from more frequent testing, and some teams add continuous testing between full engagements. Tie retesting to your release calendar, so that the largest releases are tested before they reach production, not after."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How much does a penetration test cost in the UAE?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Our editorial estimate for November 2026: from about AED 7,000 for a basic web application to AED 50,000 and above for broad enterprise scope. The figure is an estimate; providers quote after scoping. Price follows the number of applications, roles, APIs and network segments, the depth of manual work and what the contract says about retesting. Ask what is excluded from a low quote. Ask whether the quote covers retesting, a walkthrough with your developers and re-issue of the report after fixes; these items often arrive later as extras."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What should be in a penetration test report?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "A usable report has an executive summary, the scope and method, each finding with severity, evidence (proof of concept) and steps to reproduce, a risk rating such as CVSS and remediation advice that developers can follow. Ask for a sample report before you buy. A report that lists scanner output without evidence, or that cannot show how a finding was confirmed, is a warning sign. Developers should be able to reproduce each finding from the report alone. Check that it is written for two audiences: a short summary for management and technical detail for the team that fixes the issues."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What is the difference between a penetration test and a vulnerability scan?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "A vulnerability scan is an automated check that matches systems against known weaknesses. A penetration test adds human judgement: testers chain findings together, test business logic and authorisation and confirm what is exploitable. Scans are useful as routine hygiene and are required separately in some frameworks, but they do not replace a test. In PCI DSS v4.x, for example, scanning and penetration testing are separate requirements (11.3 and 11.4). Ask providers how they use scanners: a good tester uses them for coverage and then spends the time on what tools cannot do, such as authorisation flaws and business logic abuse."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How is a penetration test different from red teaming?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "A test hunts for weaknesses in an agreed scope and tells the defenders what it is doing. Red teaming simulates a real attacker pursuing a goal, usually without alerting the monitoring team, to see whether the attack is detected and stopped. A red team engagement takes longer and needs a working monitoring process. If you have not tested before, start with a penetration test. If your goal is to show a client or regulator that systems were tested, a penetration test is the right instrument; if the goal is to evaluate your detection, add a red or purple team exercise."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How do I choose a penetration testing provider?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Look for four things: a sample report with evidence, a clear statement of how much of the work is manual, named testers or a lead who will actually do the job, and retest terms in writing. Then check experience in your sector, accreditation or equivalent proof, and how the provider handles your data. Compare proposals by scope and deliverables, not by the total alone. Meet the person who will lead the test, not only the sales team, and ask how many projects of your type they ran in the last year."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How do I verify accreditation or equivalent proof?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Check the issuing body's register for the exact legal entity, service type and validity period: DESC for its accredited providers where it applies, CREST for its member list. Where there is no badge, look at original vulnerability research (CVE records, advisories), the certifications individual testers hold, and sample work. A badge shows that a provider met a scheme's conditions; it does not replace reading a sample report. Treat a missing badge as a prompt to ask for other evidence, not as a disqualifier, and treat a badge without a sample report as incomplete."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What should we prepare before a test?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Agree the scope in writing, including systems, IP ranges, applications and what is out of bounds. Prepare test accounts for each role, a test environment where possible, a contact for urgent issues and a time window. Tell the people who need to know, such as hosting providers or your SOC, and decide how findings will be handled. Plan time for fixing and for the retest. Check your backups before the test and agree a stop rule: if a test action starts to affect production, both sides know who calls a halt and how."
+    }
+   }
+  ]
+ }
+]

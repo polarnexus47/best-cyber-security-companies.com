@@ -1,0 +1,118 @@
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Managed Security Services FAQ for the UAE: MSSP, MDR, SOC",
+  "description": "Answers on MSSP, MDR and SOC-as-a-service in the UAE: contract scope, SLA metrics, data handling and how to test a provider. Updated November 2026.",
+  "url": "https://best-cyber-security-companies.com/faq/managed-security/",
+  "mainEntityOfPage": "https://best-cyber-security-companies.com/faq/managed-security/",
+  "inLanguage": "en",
+  "datePublished": "2026-11-20",
+  "dateModified": "2026-11-20",
+  "author": {
+   "@type": "Organization",
+   "name": "Editorial Team, Cyber Vendor Research",
+   "url": "https://best-cyber-security-companies.com/about/"
+  },
+  "publisher": {
+   "@type": "Organization",
+   "name": "Best Cyber Security Companies",
+   "url": "https://best-cyber-security-companies.com/"
+  },
+  "image": "https://best-cyber-security-companies.com/images/og/faq-managed-security.png"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://best-cyber-security-companies.com/"
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "FAQ",
+    "item": "https://best-cyber-security-companies.com/faq/"
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Managed security",
+    "item": "https://best-cyber-security-companies.com/faq/managed-security/"
+   }
+  ]
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+   {
+    "@type": "Question",
+    "name": "What is the difference between MSSP, MDR and SOC-as-a-service?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "MSSP is the oldest and broadest label: a provider runs security services for you, typically monitoring and alert handling. MDR emphasises detection and active response, with analysts who investigate and act on threats. SOC-as-a-service means the provider operates the security operations centre function for you. The names overlap in marketing, so compare what the contract commits to: which sources are monitored, who triages, who responds and how fast. Ask providers to put the commitments in a service description rather than a brochure: which sources, which hours, which actions and which reports."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What should a managed security contract include?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "The scope of monitored systems and log sources; service hours; alert triage and escalation rules; response actions the provider may take and those that need your approval; reporting and review meetings; response time commitments; data handling terms; and an exit plan covering your logs and configurations. Ask who owns detection rules, because that decides whether you can switch providers later. Check the exit terms in particular: in what format you receive your logs and rules back, and how quickly the provider deletes its copies."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How do I choose an MSSP in the UAE?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Start from your needs: which systems, how much log volume, which response actions. Ask for the service description and a sample report, the location of monitoring operations, the sub-processors involved, and references in your sector. Check accreditation in the register where your contracts require it, for example DESC for Dubai government work. Request a pilot or a staged onboarding, and compare providers on scope and metrics, not price alone. Ask for two references of similar size and sector, and speak to them about incidents, not about onboarding."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Where is monitoring data processed, and what should I ask?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Ask where logs, alerts and reports are processed and stored, which sub-processors and countries are involved, how long data is kept after the contract and which clauses govern transfers. The PDPL regulates cross-border transfers rather than forbidding them, while some sectors and government contracts require local processing. Put the provider's answers into the data processing agreement. Test the answer: ask the provider to name the data centres or cloud regions, and the countries from which analysts may access your logs."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Which SLA metrics matter?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Two are standard. Mean time to detect (MTTD) measures how long a threat stays unnoticed; mean time to respond (MTTR) measures how long it takes to contain it. Ask how each is calculated, from which event to which event, and whether the contract commits to them or only reports them. Also ask for time to acknowledge an alert, escalation times and false-positive handling. Be wary of averages. A provider with a good mean time to respond may still have a slow tail; ask for medians and the worst cases of the last quarter."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Should the provider respond automatically or wait for an analyst?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "It depends on risk. Automatic actions, such as isolating an endpoint, shorten response time but can interrupt the business if triggered wrongly. Many companies agree a list of actions that the provider takes at once and a list that needs approval from a named person. Write both lists into the contract and review them after the first incidents. Review both lists every quarter. Actions that caused no problems can move to the automatic list; any action that caused an outage should move back to approval."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Should we build our own SOC or outsource?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "A 24/7 SOC needs several analysts per shift, tools, processes and continuous training, which many mid-sized companies cannot sustain. Outsourcing fits when monitoring is not your core business and the log volume is moderate. Large organisations, or those with strict handling rules, often run a hybrid: an internal team for decisions and context, a provider for round-the-clock coverage. A hybrid model needs clear boundaries: who owns detection rules, who decides on containment and who briefs management during an incident."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How can I test whether my MSSP works?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Run an independent test: a red team or purple team exercise shows whether the provider notices realistic attack steps and how fast it escalates. Agree the rules beforehand, decide who is told, and require a debrief that maps each attacker action to what was detected. Independence matters: the tester should not be the company that operates your monitoring. One example of an independent testing provider is Paranoid Security. Repeat the test after significant changes, such as a new provider, a new detection platform or a major infrastructure move."
+    }
+   }
+  ]
+ }
+]

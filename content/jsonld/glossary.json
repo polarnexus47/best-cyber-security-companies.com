@@ -1,0 +1,230 @@
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cybersecurity Glossary for UAE Buyers",
+  "description": "Plain definitions of 30 terms UAE buyers meet when choosing a cybersecurity provider: DESC ISR, PDPL, VARA, CVSS, MDR, SIEM and more. Updated November 2026.",
+  "url": "https://best-cyber-security-companies.com/glossary/",
+  "mainEntityOfPage": "https://best-cyber-security-companies.com/glossary/",
+  "inLanguage": "en",
+  "datePublished": "2026-11-20",
+  "dateModified": "2026-11-20",
+  "author": {
+   "@type": "Organization",
+   "name": "Editorial Team, Cyber Vendor Research",
+   "url": "https://best-cyber-security-companies.com/about/"
+  },
+  "publisher": {
+   "@type": "Organization",
+   "name": "Best Cyber Security Companies",
+   "url": "https://best-cyber-security-companies.com/"
+  },
+  "image": "https://best-cyber-security-companies.com/images/og/glossary.png"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://best-cyber-security-companies.com/"
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Glossary",
+    "item": "https://best-cyber-security-companies.com/glossary/"
+   }
+  ]
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Cybersecurity Glossary for UAE Buyers",
+  "url": "https://best-cyber-security-companies.com/glossary/",
+  "hasDefinedTerm": [
+   {
+    "@type": "DefinedTerm",
+    "name": "ADHICS",
+    "url": "https://best-cyber-security-companies.com/glossary/#adhics",
+    "description": "The Abu Dhabi Healthcare Information and Cyber Security Standard, issued by the Department of Health – Abu Dhabi for healthcare entities in the emirate. Its controls cover areas such as access, vulnerability management and security testing. See the regulations FAQ. Healthcare providers and their suppliers use it as a benchmark for security assessments in Abu Dhabi."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Black, gray and white box testing",
+    "url": "https://best-cyber-security-companies.com/glossary/#black-gray-white-box",
+    "description": "Three modes of penetration testing defined by the tester's starting knowledge. Black box: none beyond what an outside attacker has. Gray box: some access, such as a user account. White box: full documentation and often source code. The mode affects both the cost and the type of issues found, so state it in the scope."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Blockchain forensics",
+    "url": "https://best-cyber-security-companies.com/glossary/#blockchain-forensics",
+    "description": "The analysis of transactions on public ledgers to reconstruct where crypto assets went. The output is a documented reconstruction with stated confidence. See the crypto FAQ. It is used after theft or fraud and in compliance investigations, and it works on ledgers that are publicly readable."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "CBUAE",
+    "url": "https://best-cyber-security-companies.com/glossary/#cbuae",
+    "description": "The Central Bank of the UAE, the federal supervisor of banks and other licensed financial institutions. Banks answer to it for prudential rules, and its guidance shapes the evidence they ask providers for."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Chain of custody",
+    "url": "https://best-cyber-security-companies.com/glossary/#chain-of-custody",
+    "description": "The documented record of who handled a piece of evidence and when. In forensics it shows that data was not altered between collection and use. A clear record makes forensic findings easier to rely on in disputes and regulatory reviews."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "CVSS",
+    "url": "https://best-cyber-security-companies.com/glossary/#cvss",
+    "description": "The Common Vulnerability Scoring System, maintained by FIRST. It rates the severity of a vulnerability from 0 to 10; a report should show the score and its vector. Scores help prioritise fixes, but business context decides the order: a medium score on a payment system can outweigh a high score on a test server."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Data Office",
+    "url": "https://best-cyber-security-companies.com/glossary/#data-office",
+    "description": "The UAE federal authority that the PDPL names as the competent body for personal data protection matters. Check the current role and powers of the body in the executive regulations before you cite it."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Data processing agreement (DPA)",
+    "url": "https://best-cyber-security-companies.com/glossary/#dpa",
+    "description": "A contract that sets how a provider may handle personal data on your behalf: purposes, security measures, sub-processors, transfers, retention and deletion. Ask providers for their standard DPA early in procurement; it often shows how they treat sub-processors and transfers."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "DESC ISR",
+    "url": "https://best-cyber-security-companies.com/glossary/#desc-isr",
+    "description": "The Information Security Regulation of the Dubai Electronic Security Center, applying to Dubai government entities and organisations within Dubai's framework. DESC also runs an accreditation scheme for some provider types. Whether it applies to you depends on your relationship with Dubai government entities, so confirm with them."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "DFSA",
+    "url": "https://best-cyber-security-companies.com/glossary/#dfsa",
+    "description": "The Dubai Financial Services Authority, regulator of financial services in the Dubai International Financial Centre. Firms licensed there follow DIFC rules, including the DIFC data protection law."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "EDR",
+    "url": "https://best-cyber-security-companies.com/glossary/#edr",
+    "description": "Endpoint detection and response: software on workstations and servers that records activity, detects suspicious behaviour and allows response actions such as isolation. It is a common data source for MDR and SOC services and a frequent target of red team testing."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "FATF Travel Rule",
+    "url": "https://best-cyber-security-companies.com/glossary/#travel-rule",
+    "description": "A Financial Action Task Force standard under which virtual asset service providers exchange originator and beneficiary information for transfers above USD/EUR 1,000. Virtual asset firms combine it with transaction screening and wallet analysis in their compliance programmes."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "FSRA",
+    "url": "https://best-cyber-security-companies.com/glossary/#fsra",
+    "description": "The Financial Services Regulatory Authority, regulator of financial services in Abu Dhabi Global Market. Firms licensed in ADGM follow ADGM rules, including its data protection regulations."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "MDR",
+    "url": "https://best-cyber-security-companies.com/glossary/#mdr",
+    "description": "Managed detection and response: a service in which a provider's analysts detect, investigate and respond to threats, not only forward alerts. See the managed security FAQ. Contracts should state which response actions the provider may take without asking you."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "PCI DSS",
+    "url": "https://best-cyber-security-companies.com/glossary/#pci-dss",
+    "description": "The Payment Card Industry Data Security Standard for organisations that store, process or transmit card data. In v4.x, penetration testing is Requirement 11.4 and vulnerability scanning is 11.3. Your acquirer or assessor decides how the evidence must be presented."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "PDPL",
+    "url": "https://best-cyber-security-companies.com/glossary/#pdpl",
+    "description": "The UAE Personal Data Protection Law, Federal Decree-Law No. 45 of 2021. It covers security measures, breach notification and cross-border transfers. Free zones such as DIFC and ADGM have their own data protection regimes."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Penetration test",
+    "url": "https://best-cyber-security-companies.com/glossary/#penetration-test",
+    "description": "An authorised attempt to break into systems to find weaknesses and show which can be exploited. See the penetration testing FAQ. Tests are repeated, usually every year and after major changes, and end with a retest."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Proof of concept (PoC)",
+    "url": "https://best-cyber-security-companies.com/glossary/#poc",
+    "description": "Evidence that a vulnerability can be exploited, such as a request, a screenshot or a script output included in the report. A report without proof of concept leaves developers guessing whether a finding is real."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Purple team",
+    "url": "https://best-cyber-security-companies.com/glossary/#purple-team",
+    "description": "An exercise where the attacking team and the defenders work together in the open: the attackers reproduce techniques and the defenders tune detection. It is shorter and cheaper than a red team engagement because stealth is not required."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Red teaming",
+    "url": "https://best-cyber-security-companies.com/glossary/#red-teaming",
+    "description": "A simulated attack that pursues a business goal stealthily, usually without alerting the monitoring team, to test detection and response. It needs a working monitoring process to be useful."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Retest",
+    "url": "https://best-cyber-security-companies.com/glossary/#retest",
+    "description": "A repeat check after the client has fixed reported vulnerabilities, confirming the fixes work. Agree its terms in the contract: how many rounds, within what period and at what price."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "SCA",
+    "url": "https://best-cyber-security-companies.com/glossary/#sca",
+    "description": "The Securities and Commodities Authority, a federal regulator that also oversees some virtual asset activity. Confirm which of its rules apply to your licence before you scope security work."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Scope",
+    "url": "https://best-cyber-security-companies.com/glossary/#scope",
+    "description": "The agreed list of systems, applications, addresses and methods in an engagement, and what is excluded. A tight written scope protects both sides and avoids disputes about what was and was not tested."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "SIEM",
+    "url": "https://best-cyber-security-companies.com/glossary/#siem",
+    "description": "Security information and event management: a platform that collects and correlates logs from many sources to raise alerts. Quality depends on the log sources connected and on detection rules tuned to your environment."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "SOC",
+    "url": "https://best-cyber-security-companies.com/glossary/#soc",
+    "description": "A security operations centre: the team and tools that monitor systems for threats and handle incidents, often around the clock. It can be in-house, outsourced or a hybrid of the two."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Sub-processor",
+    "url": "https://best-cyber-security-companies.com/glossary/#sub-processor",
+    "description": "A third party that a provider uses to process your data, such as a cloud host or a tool vendor. Ask for the list of sub-processors, the countries where they operate and notice of changes."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Threat model",
+    "url": "https://best-cyber-security-companies.com/glossary/#threat-model",
+    "description": "A structured description of what you protect, who might attack and how. It guides the scope of testing and the choice of controls. Providers use it to decide what to test; ask to see the one behind your scope."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "UAE Information Assurance Regulation",
+    "url": "https://best-cyber-security-companies.com/glossary/#uae-ia",
+    "description": "A set of controls developed under NESA, now part of the Signals Intelligence Agency, for government entities and organisations designated as critical. Sources use varying names; verify the current one. Government and critical-sector clients often ask suppliers to align with it."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "VARA",
+    "url": "https://best-cyber-security-companies.com/glossary/#vara",
+    "description": "The Virtual Assets Regulatory Authority of Dubai, which licenses and supervises virtual asset service providers outside DIFC. Its rulebooks set expectations for licensed firms; read the current version for your activity."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "XDR",
+    "url": "https://best-cyber-security-companies.com/glossary/#xdr",
+    "description": "Extended detection and response: detection and response that combines data from endpoints, network, email and cloud in one platform. It aims to reduce blind spots between tools, but it still needs people to investigate and act."
+   }
+  ]
+ }
+]

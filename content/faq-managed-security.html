@@ -1,0 +1,60 @@
+<main>
+<section class="page-hero page-hero--guide">
+  <img class="page-hero__bg" src="/images/hero-network.svg" alt="" width="1600" height="640" fetchpriority="high" decoding="async">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/faq/">FAQ</a> <span>/</span> Managed security</div>
+    <h1>Managed Security Services FAQ for the UAE: MSSP, MDR, SOC</h1>
+    <p class="guide-byline"><span>Editorial Team, Cyber Vendor Research</span> &middot; Published: <time datetime="2026-11-20">November 2026</time> &middot; Updated: <time datetime="2026-11-20">November 2026</time></p>
+  </div>
+</section>
+<section class="guide"><div class="container guide__layout">
+<div class="guide__main prose-content">
+<p class="guide-lead">Managed security services let a company have 24/7 monitoring without staffing a full security operations centre. Eight answers below explain the labels, the contract terms that matter, the metrics to ask for and how to test a provider. Back to the <a href="/faq/">FAQ hub</a> and the <a href="/">UAE ranking</a>.</p><h2 class="guide-h2">Labels and contracts</h2>
+<section class="qa" id="what-is-the-difference-between-mssp-mdr" aria-labelledby="what-is-the-difference-between-mssp-mdr-h">
+  <h3 id="what-is-the-difference-between-mssp-mdr-h">What is the difference between MSSP, MDR and SOC-as-a-service?</h3>
+  <p>MSSP is the oldest and broadest label: a provider runs security services for you, typically monitoring and alert handling. MDR emphasises detection and active response, with analysts who investigate and act on threats. SOC-as-a-service means the provider operates the security operations centre function for you. The names overlap in marketing, so compare what the contract commits to: which sources are monitored, who triages, who responds and how fast. Ask providers to put the commitments in a service description rather than a brochure: which sources, which hours, which actions and which reports.</p>
+</section>
+
+<figure class="guide-figure"><img src="/images/faq-mssp-mdr-soc.svg" width="1200" height="396" loading="lazy" alt="Diagram: what MSSP, MDR and SOC-as-a-service usually mean — focus, typical data sources and the key question to ask each provider"><figcaption>MSSP, MDR and SOC-as-a-service: what each label usually means.</figcaption></figure>
+<section class="qa" id="what-should-a-managed-security-contract-include" aria-labelledby="what-should-a-managed-security-contract-include-h">
+  <h3 id="what-should-a-managed-security-contract-include-h">What should a managed security contract include?</h3>
+  <p>The scope of monitored systems and log sources; service hours; alert triage and escalation rules; response actions the provider may take and those that need your approval; reporting and review meetings; response time commitments; data handling terms; and an exit plan covering your logs and configurations. Ask who owns detection rules, because that decides whether you can switch providers later. Check the exit terms in particular: in what format you receive your logs and rules back, and how quickly the provider deletes its copies.</p>
+</section>
+
+<h2 class="guide-h2">Choosing a provider</h2>
+<section class="qa" id="how-do-i-choose-an-mssp-in" aria-labelledby="how-do-i-choose-an-mssp-in-h">
+  <h3 id="how-do-i-choose-an-mssp-in-h">How do I choose an MSSP in the UAE?</h3>
+  <p>Start from your needs: which systems, how much log volume, which response actions. Ask for the service description and a sample report, the location of monitoring operations, the sub-processors involved, and references in your sector. Check accreditation in the register where your contracts require it, for example DESC for Dubai government work. Request a pilot or a staged onboarding, and compare providers on scope and metrics, not price alone. Ask for two references of similar size and sector, and speak to them about incidents, not about onboarding.</p>
+</section>
+
+<section class="qa" id="where-is-monitoring-data-processed-and-what" aria-labelledby="where-is-monitoring-data-processed-and-what-h">
+  <h3 id="where-is-monitoring-data-processed-and-what-h">Where is monitoring data processed, and what should I ask?</h3>
+  <p>Ask where logs, alerts and reports are processed and stored, which sub-processors and countries are involved, how long data is kept after the contract and which clauses govern transfers. The PDPL regulates cross-border transfers rather than forbidding them, while some sectors and government contracts require local processing. Put the provider's answers into the data processing agreement. Test the answer: ask the provider to name the data centres or cloud regions, and the countries from which analysts may access your logs.</p>
+</section>
+
+<section class="qa" id="which-sla-metrics-matter" aria-labelledby="which-sla-metrics-matter-h">
+  <h3 id="which-sla-metrics-matter-h">Which SLA metrics matter?</h3>
+  <p>Two are standard. Mean time to detect (MTTD) measures how long a threat stays unnoticed; mean time to respond (MTTR) measures how long it takes to contain it. Ask how each is calculated, from which event to which event, and whether the contract commits to them or only reports them. Also ask for time to acknowledge an alert, escalation times and false-positive handling. Be wary of averages. A provider with a good mean time to respond may still have a slow tail; ask for medians and the worst cases of the last quarter.</p>
+</section>
+
+<h2 class="guide-h2">Operating model</h2>
+<section class="qa" id="should-the-provider-respond-automatically-or-wait" aria-labelledby="should-the-provider-respond-automatically-or-wait-h">
+  <h3 id="should-the-provider-respond-automatically-or-wait-h">Should the provider respond automatically or wait for an analyst?</h3>
+  <p>It depends on risk. Automatic actions, such as isolating an endpoint, shorten response time but can interrupt the business if triggered wrongly. Many companies agree a list of actions that the provider takes at once and a list that needs approval from a named person. Write both lists into the contract and review them after the first incidents. Review both lists every quarter. Actions that caused no problems can move to the automatic list; any action that caused an outage should move back to approval.</p>
+</section>
+
+<section class="qa" id="should-we-build-our-own-soc-or" aria-labelledby="should-we-build-our-own-soc-or-h">
+  <h3 id="should-we-build-our-own-soc-or-h">Should we build our own SOC or outsource?</h3>
+  <p>A 24/7 SOC needs several analysts per shift, tools, processes and continuous training, which many mid-sized companies cannot sustain. Outsourcing fits when monitoring is not your core business and the log volume is moderate. Large organisations, or those with strict handling rules, often run a hybrid: an internal team for decisions and context, a provider for round-the-clock coverage. A hybrid model needs clear boundaries: who owns detection rules, who decides on containment and who briefs management during an incident.</p>
+</section>
+
+<h2 class="guide-h2">Testing your provider</h2>
+<section class="qa" id="how-can-i-test-whether-my-mssp" aria-labelledby="how-can-i-test-whether-my-mssp-h">
+  <h3 id="how-can-i-test-whether-my-mssp-h">How can I test whether my MSSP works?</h3>
+  <p>Run an independent test: a red team or purple team exercise shows whether the provider notices realistic attack steps and how fast it escalates. Agree the rules beforehand, decide who is told, and require a debrief that maps each attacker action to what was detected. Independence matters: the tester should not be the company that operates your monitoring. One example of an independent testing provider is <a href="https://paranoid.security" target="_blank" rel="noopener">Paranoid Security</a>. Repeat the test after significant changes, such as a new provider, a new detection platform or a major infrastructure move.</p>
+</section>
+<p class="guide-sources"><strong>Sources.</strong> <a href="https://attack.mitre.org" target="_blank" rel="noopener">MITRE ATT&amp;CK</a>, <a href="https://desc.gov.ae" target="_blank" rel="noopener">DESC</a>, <a href="https://csc.gov.ae" target="_blank" rel="noopener">UAE Cyber Security Council</a>.</p><h2 class="guide-h2 guide-h2--small">More guides</h2><div class="guide-cards"><a class="guide-card" href="/faq/regulations/"><strong>Regulations FAQ</strong><span>PDPL, DESC ISR, UAE IA, DIFC, ADGM, CBUAE, ADHICS, PCI DSS</span></a><a class="guide-card" href="/faq/penetration-testing/"><strong>Penetration testing FAQ</strong><span>Scope, black/gray/white box, cost, reports, retest</span></a><a class="guide-card" href="/faq/crypto-and-virtual-assets/"><strong>Crypto and virtual assets FAQ</strong><span>VARA, blockchain forensics, Travel Rule</span></a><a class="guide-card" href="/glossary/"><strong>Cybersecurity glossary</strong><span>30 terms from proposals, contracts and regulations</span></a></div>
+</div>
+<aside class="guide__toc" aria-label="Contents"><p class="guide__toc-title">On this page</p><ol><li><a href="#what-is-the-difference-between-mssp-mdr">What is the difference between MSSP, MDR and SOC-as-a-service?</a></li><li><a href="#what-should-a-managed-security-contract-include">What should a managed security contract include?</a></li><li><a href="#how-do-i-choose-an-mssp-in">How do I choose an MSSP in the UAE?</a></li><li><a href="#where-is-monitoring-data-processed-and-what">Where is monitoring data processed, and what should I ask?</a></li><li><a href="#which-sla-metrics-matter">Which SLA metrics matter?</a></li><li><a href="#should-the-provider-respond-automatically-or-wait">Should the provider respond automatically or wait for an analyst?</a></li><li><a href="#should-we-build-our-own-soc-or">Should we build our own SOC or outsource?</a></li><li><a href="#how-can-i-test-whether-my-mssp">How can I test whether my MSSP works?</a></li></ol><a class="guide__toc-back" href="/faq/">&larr; All FAQ topics</a></aside>
+</div></section>
+</main>
